@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+</head>
+<body>
+    <p>In this example, x, y, and z are variables.</p>
+    <p id="Demo"></p>
+    <p id="Demo1"></p>
+    <p id="Demo2"></p>
+    <p>In this example, price, price2, and total are variables.</p>
+    <p id="Demo3"></p>
+    <p id="Demo4"></p>
+</body>
+    <script>
+        var x = 6;
+        var y = 6;
+        var z = x + y;
+        document.getElementById("Demo").innerHTML = z;
+
+        let a = 10;
+        let b = 10;
+        let c = a + b;
+        document.getElementById("Demo1").innerHTML = c;
+
+        e = 15;
+        f = 20;
+        g = e + f;
+        document.getElementById("Demo2").innerHTML = "The value of z is: " + g;
+
+        const price = 20;
+        const price2 = 20;
+        const total = price + price2;
+        document.getElementById("Demo3").innerHTML = "This value Of Total is:" + total;
+
+        const pi = 14;
+        let name = "Jevin";
+        let suname = "Patel"
+        document.getElementById("Demo4").innerHTML = "pi" + pi + "<br>" + "name" + name + "<br>" + "suname" + suname;
+
+    </script>
+</html>
